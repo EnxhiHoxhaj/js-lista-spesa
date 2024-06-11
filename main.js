@@ -31,5 +31,7 @@ let item = listaSpesa[i];
 let elencoPuntato = `<li>${item}</li>`;
 console.log(elencoPuntato);
 //inserisco la mia lista dell'html
+foglioSpesa.innerHTML += elencoPuntato;
 }
+
 
