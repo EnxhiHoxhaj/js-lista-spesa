@@ -23,6 +23,11 @@ let listaSpesa = [
 ]
 
 //creo il mio ciclo while
+let i = 0;
+while (i <= listaSpesa.length -1) {
+    console.log(listaSpesa[i]);
+    i++;
+}
 
 //creo gli elementi li
 
