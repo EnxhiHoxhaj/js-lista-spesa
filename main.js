@@ -22,6 +22,8 @@ let listaSpesa = [
     "Salmone",
 ]
 
+//Aggiungi nuovi elementi alla spesa
+listaSpesa.push("Carta igenica", "Detersivo piatti", "Sale",);
 //creo il mio ciclo while
 let i = 0;
 while (i < listaSpesa.length -1) {
