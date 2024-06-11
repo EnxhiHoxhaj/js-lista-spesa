@@ -5,6 +5,22 @@ let foglioSpesa = document.querySelector("ul");
 console.log(foglioSpesa);
 
 //creao la mia lista della spesa
+let listaSpesa = [
+    "Latte",
+    "Biscotti",
+    "Banana",
+    "Vino",
+    "Grana padano",
+    "Pecorino",
+    "Guanciale",
+    "Spagetti",
+    "Uova",
+    "Caffè",
+    "Marmellata",
+    "Nutella",
+    "Riso",
+    "Salmone",
+]
 
 //creo il mio ciclo while
 
