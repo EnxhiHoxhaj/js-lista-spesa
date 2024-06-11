@@ -27,13 +27,13 @@ listaSpesa.push("Carta igenica", "Detersivo piatti", "Sale",);
 //creo il mio ciclo while
 let i = 0;
 while (i < listaSpesa.length -1) {
-    i++;
 //creo gli elementi li e ci inserisco dentro gli elementi della mia lista
 let item = listaSpesa[i];
 let elencoPuntato = `<li>${item}</li>`;
 console.log(elencoPuntato);
 //inserisco la mia lista dell'html
 foglioSpesa.innerHTML += elencoPuntato;
+i++;
 }
 
 
